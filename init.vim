@@ -1,20 +1,41 @@
-" ███▄    █ ▓█████  ▒█████   ██▒   █▓ ██▓ ███▄ ▄███▓   
-" ██ ▀█   █ ▓█   ▀ ▒██▒  ██▒▓██░   █▒▓██▒▓██▒▀█▀ ██▒   
-"▓██  ▀█ ██▒▒███   ▒██░  ██▒ ▓██  █▒░▒██▒▓██    ▓██░   
-"▓██▒  ▐▌██▒▒▓█  ▄ ▒██   ██░  ▒██ █░░░██░▒██    ▒██    
-"▒██░   ▓██░░▒████▒░ ████▓▒░   ▒▀█░  ░██░▒██▒   ░██▒   
-"░ ▒░   ▒ ▒ ░░ ▒░ ░░ ▒░▒░▒░    ░ ▐░  ░▓  ░ ▒░   ░  ░   
-"░ ░░   ░ ▒░ ░ ░  ░  ░ ▒ ▒░    ░ ░░   ▒ ░░  ░      ░   
-"   ░   ░ ░    ░   ░ ░ ░ ▒       ░░   ▒ ░░      ░      
-"         ░    ░  ░    ░ ░        ░   ░         ░      
-"                                ░                     
 
 
 
+
+" ███▄    █ ▓█████  ▒█████         ██▒   █▓ ██▓       ██▓ ███▄ ▄███▓ ██▓███   ██▀███   ▒█████   ██▒   █▓▓█████ ▓█████▄ 
+" ██ ▀█   █ ▓█   ▀ ▒██▒  ██▒      ▓██░   █▒▓██▒      ▓██▒▓██▒▀█▀ ██▒▓██░  ██▒▓██ ▒ ██▒▒██▒  ██▒▓██░   █▒▓█   ▀ ▒██▀ ██▌
+"▓██  ▀█ ██▒▒███   ▒██░  ██▒       ▓██  █▒░▒██▒      ▒██▒▓██    ▓██░▓██░ ██▓▒▓██ ░▄█ ▒▒██░  ██▒ ▓██  █▒░▒███   ░██   █▌
+"▓██▒  ▐▌██▒▒▓█  ▄ ▒██   ██░        ▒██ █░░░██░      ░██░▒██    ▒██ ▒██▄█▓▒ ▒▒██▀▀█▄  ▒██   ██░  ▒██ █░░▒▓█  ▄ ░▓█▄   ▌
+"▒██░   ▓██░░▒████▒░ ████▓▒░         ▒▀█░  ░██░      ░██░▒██▒   ░██▒▒██▒ ░  ░░██▓ ▒██▒░ ████▓▒░   ▒▀█░  ░▒████▒░▒████▓ 
+"░ ▒░   ▒ ▒ ░░ ▒░ ░░ ▒░▒░▒░          ░ ▐░  ░▓        ░▓  ░ ▒░   ░  ░▒▓▒░ ░  ░░ ▒▓ ░▒▓░░ ▒░▒░▒░    ░ ▐░  ░░ ▒░ ░ ▒▒▓  ▒ 
+"░ ░░   ░ ▒░ ░ ░  ░  ░ ▒ ▒░          ░ ░░   ▒ ░       ▒ ░░  ░      ░░▒ ░       ░▒ ░ ▒░  ░ ▒ ▒░    ░ ░░   ░ ░  ░ ░ ▒  ▒ 
+"   ░   ░ ░    ░   ░ ░ ░ ▒             ░░   ▒ ░       ▒ ░░      ░   ░░         ░░   ░ ░ ░ ░ ▒       ░░     ░    ░ ░  ░ 
+"         ░    ░  ░    ░ ░              ░   ░         ░         ░               ░         ░ ░        ░     ░  ░   ░    
+"                                      ░                                                            ░           ░      
+
+
+
+
+"██████   █████  ███████ ██  ██████       ███████ ███████ ████████ ████████ ██ ███    ██  ██████  ███████ 
+"██   ██ ██   ██ ██      ██ ██            ██      ██         ██       ██    ██ ████   ██ ██       ██      
+"██████  ███████ ███████ ██ ██      █████ ███████ █████      ██       ██    ██ ██ ██  ██ ██   ███ ███████ 
+"██   ██ ██   ██      ██ ██ ██                 ██ ██         ██       ██    ██ ██  ██ ██ ██    ██      ██ 
+"██████  ██   ██ ███████ ██  ██████       ███████ ███████    ██       ██    ██ ██   ████  ██████  ███████ 
+                                                                                                         
+                                                                                                         
 set tabstop=2
 set shiftwidth=2
 set nu
 set nowrap
+
+
+"██████  ██      ██    ██  ██████  ██ ███    ██ ███████ 
+"██   ██ ██      ██    ██ ██       ██ ████   ██ ██      
+"██████  ██      ██    ██ ██   ███ ██ ██ ██  ██ ███████ 
+"██      ██      ██    ██ ██    ██ ██ ██  ██ ██      ██ 
+"██      ███████  ██████   ██████  ██ ██   ████ ███████ 
+                                                       
+
 call plug#begin()
 Plug 'dracula/vim'
 Plug 'tpope/vim-fugitive'
@@ -33,6 +54,7 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'morhetz/gruvbox'
+Plug 'folke/zen-mode.nvim'
 
 
 
@@ -41,6 +63,15 @@ if has("nvim")
 endif
 "Plug 'ervandew/supertab'
 call plug#end()
+
+
+" ██████  ██████  ██       ██████  ██████  ███████ 
+"██      ██    ██ ██      ██    ██ ██   ██ ██      
+"██      ██    ██ ██      ██    ██ ██████  ███████ 
+"██      ██    ██ ██      ██    ██ ██   ██      ██ 
+" ██████  ██████  ███████  ██████  ██   ██ ███████ 
+                                                  
+                                                  
 
  if exists('+termguicolors')
       let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
@@ -51,10 +82,93 @@ call plug#end()
 colorscheme gruvbox
 
 
+"███████ ██    ██ ██████  ███████ ██████  ████████  █████  ██████  
+"██      ██    ██ ██   ██ ██      ██   ██    ██    ██   ██ ██   ██ 
+"███████ ██    ██ ██████  █████   ██████     ██    ███████ ██████  
+"     ██ ██    ██ ██      ██      ██   ██    ██    ██   ██ ██   ██ 
+"███████  ██████  ██      ███████ ██   ██    ██    ██   ██ ██████  
+                                                                  
+                                                                  
+
+
+
+
 "let g:SuperTabDefaultCompletionType = "<C-x><C-o>"
 "let g:SuperTabContextDefaultCompletionType = "<C-X><C-o>"
 "let g:completion_trigger_character = ['.', '::'] 
 "let g:completion_popup_border = 'shadow'
+
+" -- [ Zen Mode ] --
+
+
+"███████ ███████ ███    ██       ███    ███  ██████  ██████  ███████ 
+"   ███  ██      ████   ██       ████  ████ ██    ██ ██   ██ ██      
+"  ███   █████   ██ ██  ██ █████ ██ ████ ██ ██    ██ ██   ██ █████   
+" ███    ██      ██  ██ ██       ██  ██  ██ ██    ██ ██   ██ ██      
+"███████ ███████ ██   ████       ██      ██  ██████  ██████  ███████ 
+                                                                    
+                                                                    
+
+lua << EOF
+require("zen-mode").setup{
+  window = {
+    backdrop = 0.95, -- shade the backdrop of the Zen window. Set to 1 to keep the same as Normal
+    -- height and width can be:
+    -- * an absolute number of cells when > 1
+    -- * a percentage of the width / height of the editor when <= 1
+    -- * a function that returns the width or the height
+    width = 120, -- width of the Zen window
+    height = 1, -- height of the Zen window
+    -- by default, no options are changed for the Zen window
+    -- uncomment any of the options below, or add other vim.wo options you want to apply
+    options = {
+      -- signcolumn = "no", -- disable signcolumn
+      -- number = false, -- disable number column
+      -- relativenumber = false, -- disable relative numbers
+      -- cursorline = false, -- disable cursorline
+      -- cursorcolumn = false, -- disable cursor column
+      -- foldcolumn = "0", -- disable fold column
+      -- list = false, -- disable whitespace characters
+    },
+  },
+  plugins = {
+    -- disable some global vim options (vim.o...)
+    -- comment the lines to not apply the options
+    options = {
+      enabled = true,
+      ruler = false, -- disables the ruler text in the cmd line area
+      showcmd = false, -- disables the command in the last line of the screen
+    },
+    twilight = { enabled = true }, -- enable to start Twilight when zen mode opens
+    gitsigns = { enabled = false }, -- disables git signs
+    tmux = { enabled = false }, -- disables the tmux statusline
+    -- this will change the font size on kitty when in zen mode
+    -- to make this work, you need to set the following kitty options:
+    -- - allow_remote_control socket-only
+    -- - listen_on unix:/tmp/kitty
+    kitty = {
+      enabled = false,
+      font = "+4", -- font size increment
+    },
+  },
+  -- callback where you can add custom code when the Zen window opens
+  on_open = function(win)
+  end,
+  -- callback where you can add custom code when the Zen window closes
+  on_close = function()
+  end,
+}
+EOF
+
+
+"███    ██  █████  ████████ ██ ██    ██ ███████       ██      ███████ ██████  
+"████   ██ ██   ██    ██    ██ ██    ██ ██            ██      ██      ██   ██ 
+"██ ██  ██ ███████    ██    ██ ██    ██ █████   █████ ██      ███████ ██████  
+"██  ██ ██ ██   ██    ██    ██  ██  ██  ██            ██           ██ ██      
+"██   ████ ██   ██    ██    ██   ████   ███████       ███████ ███████ ██      
+                                                                             
+                                                                             
+
 
 lua << EOF
 local nvim_lsp = require('lspconfig')
@@ -143,6 +257,13 @@ autocmd Filetype python setlocal omnifunc=v:lua.vim.lsp.omnifunc
 
 
 
+"███    ██ ███████ ██████  ██████  ████████ ██████  ███████ ███████ 
+"████   ██ ██      ██   ██ ██   ██    ██    ██   ██ ██      ██      
+"██ ██  ██ █████   ██████  ██   ██    ██    ██████  █████   █████   
+"██  ██ ██ ██      ██   ██ ██   ██    ██    ██   ██ ██      ██      
+"██   ████ ███████ ██   ██ ██████     ██    ██   ██ ███████ ███████ 
+                                                                   
+                                                                   
 let g:NERDTreeShowHidden = 1
 let g:NERDTreeMinimalUI = 1
 let g:NERDTreeIgnore = []
@@ -153,6 +274,14 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 nnoremap <silent> <C-k><C-b> :NERDTreeToggle<CR>
 
 
+
+"████████ ███████ ██████  ███    ███ ██ ███    ██  █████  ██      
+"   ██    ██      ██   ██ ████  ████ ██ ████   ██ ██   ██ ██      
+"   ██    █████   ██████  ██ ████ ██ ██ ██ ██  ██ ███████ ██      
+"   ██    ██      ██   ██ ██  ██  ██ ██ ██  ██ ██ ██   ██ ██      
+"   ██    ███████ ██   ██ ██      ██ ██ ██   ████ ██   ██ ███████ 
+                                                                 
+                                                                 
 " open new split panes to right and below
 set splitright
 set splitbelow
@@ -175,7 +304,17 @@ let g:fzf_action = {
   \}
 
 
-"COC
+
+
+
+" ██████  ██████   ██████    ███    ██ ██    ██ ██ ███    ███ 
+"██      ██    ██ ██         ████   ██ ██    ██ ██ ████  ████ 
+"██      ██    ██ ██         ██ ██  ██ ██    ██ ██ ██ ████ ██ 
+"██      ██    ██ ██         ██  ██ ██  ██  ██  ██ ██  ██  ██ 
+" ██████  ██████   ██████ ██ ██   ████   ████   ██ ██      ██ 
+                                                             
+                                                             
+
 
 " Set internal encoding of vim, not needed on neovim, since coc.nvim using some
 " unicode characters in the file autoload/float.vim
@@ -349,4 +488,19 @@ nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
 " COC plugins
 let g:coc_global_extensions = ['coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier', 'coc-tsserver']
+
+
+
+
+"███████ ██    ██ ███    ██  ██████ ████████ ██  ██████  ███    ██ ███████ 
+"██      ██    ██ ████   ██ ██         ██    ██ ██    ██ ████   ██ ██      
+"█████   ██    ██ ██ ██  ██ ██         ██    ██ ██    ██ ██ ██  ██ ███████ 
+"██      ██    ██ ██  ██ ██ ██         ██    ██ ██    ██ ██  ██ ██      ██ 
+"██       ██████  ██   ████  ██████    ██    ██  ██████  ██   ████ ███████ 
+                                                                          
+          
+function! ToggleZenMode()
+	ZenMode
+endfunction
+nnoremap <S-z> :call ToggleZenMode()<cr>
 
