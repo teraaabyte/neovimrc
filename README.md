@@ -2,8 +2,12 @@
 
 ## Includes:
 - coc.nvim
-- vim-visual-multi :keyboard
-- vim devicons :bulb
-- zen-mode :shrine
-- gruvbox theme :pallete
+- gruvbox theme 
+- lexima.vim
+- NERDTree
+- vim devicons
+- vim-visual-multi  
+- zen-mode 
 
+
+## Links: :chain 
