@@ -17,7 +17,7 @@
 ## Includes :open_file_folder::
 **coc.nvim:** Nodejs extension host for vim & neovim, load extensions like VSCode and host language servers.
 
-**fzf.vim** fzf heart vim
+**fzf.vim:** fzf heart vim
 
 **gruvbox theme:** Retro groove color scheme for Vim 
 
