@@ -1,6 +1,6 @@
 # Personal Neovim Configurations :rocket:
 
-## Includes:
+## Includes:open_file_folder::
 - coc.nvim 
 - gruvbox theme 
 - lexima.vim 
@@ -10,4 +10,4 @@
 - zen-mode 
 
 
-## Links: :link:
+## Links:link::
