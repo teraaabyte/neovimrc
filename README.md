@@ -3,11 +3,11 @@
 ## Includes:
 - coc.nvim :bulb:
 - gruvbox theme :palette:
-- lexima.vim ::
-- NERDTree :folder:
+- lexima.vim :ribbon:
+- NERDTree :open_file_folder:
 - vim devicons :sunflower:
 - vim-visual-multi :keyboard:  
-- zen-mode :shrine:
+- zen-mode :shinto_shrine:
 
 
 ## Links: :chain:
