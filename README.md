@@ -1,13 +1,13 @@
 # Personal Neovim Configurations :rocket:
 
 ## Includes:
-- coc.nvim :bulb:
-- gruvbox theme :palette:
-- lexima.vim :ribbon:
-- NERDTree :open_file_folder:
-- vim devicons :sunflower:
-- vim-visual-multi :keyboard:  
-- zen-mode :shinto_shrine:
+- coc.nvim 
+- gruvbox theme 
+- lexima.vim 
+- NERDTree 
+- vim devicons 
+- vim-visual-multi   
+- zen-mode 
 
 
 ## Links: :chain:
